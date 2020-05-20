@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>群晖算号器</title>
+  <link rel="stylesheet" href="./DSM_Generate_files/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ">
+  <script src="./DSM_Generate_files/jquery-3.1.1.min.js"></script>
+  <script src="./DSM_Generate_files/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"></script>
+  <script src="./DSM_Generate_files/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"></script>
+  <link rel="stylesheet" href="/app.css" />
+  <script src="dist/plyr.js"></script>
+  <link rel="stylesheet" href="dist/plyr.css" />
+  <script src="/app.js"></script>
+  <link rel="stylesheet" href="./DSM_Generate_files/style.css">
+  <script src="./DSM_Generate_files/script_new.js"></script>
+  <script src="./DSM_Generate_files/jquery.min.js"></script>
+</head>
+<body class="dark d-flex flex-column">
+  <div class="flex-fill flex-grow-1">
+    <div class="container">
+      <main class="content">
+        <div class="row row-pxn10">
+          <div class="col-12 text-center">
+            <h1>群晖算号器</h1>
+            <br />
+            <select class="custom-select" name="model" id="model">
+              <option value="PD">DS918+</option>
+              <option value="OD">DS3617xs</option>
+              <option value="LW">DS3615xs</option>
+              <option value="NZ">DS916+</option>
+              <option value="NJ">DS716+</option>
+              <option value="PC">DS218+</option>
+              <option value="PE">DS718+</option>
+              <option value="PF">VS960HD</option>
+              <option value="PH">DS418</option>
+              <option value="PJ">DS1517+</option>
+              <option value="PK">DS1817+</option>
+              <option value="PL">DX517</option>
+              <option value="PM">FS2017</option>
+              <option value="PN">FXC17</option>
+              <option value="PP">E10G17-T1</option>
+              <option value="PQ">DS1517</option>
+              <option value="PR">DS1817</option>
+              <option value="PU">DS418j</option>
+              <option value="PV">DS1517+</option>
+              <option value="PW">DS1817+</option>
+              <option value="PX">DS3018xs</option>
+              <option value="PY">FS1018</option>
+              <option value="PZ">DS418play</option>
+              <option value="QA">RS2818RP+</option>
+              <option value="QB">RS818+</option>
+              <option value="QC">RS818RP+</option>
+              <option value="QD">DS118</option>
+              <option value="QE">DS218</option>
+              <option value="QH">RX418</option>
+              <option value="QG">RT2600ac</option>
+            </select>
+            <br />
+            <input name="Input" class="form-control" id="sn" placeholder="SN（序列号）" />
+            <input name="Input" class="form-control" id="mac" placeholder="MAC（网卡地址）" />
+            <br />
+            <input name="button" class="btn btn-dark" type="button" id="generate" value="开始计算" />
+          </div>
+          <div class="col-12 text-center">
+            <hr />
+            <p>By BSChannel 2020.05.20</p>
+            <a href="/index.html">返回主页</a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
